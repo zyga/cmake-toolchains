@@ -13,6 +13,7 @@ set(TOOLCHAIN_PREFIX arm-linux-gnueabihf)
 
 # cross compilers to use for C and C++
 set(CMAKE_C_COMPILER ${TOOLCHAIN_PREFIX}-gcc)
+set(CMAKE_CXX_COMPILER ${TOOLCHAIN_PREFIX}-g++)
 
 # target environment on the build host system
 #   set 1st to dir with the cross compiler's C/C++ headers/libs
